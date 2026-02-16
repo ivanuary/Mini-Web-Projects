@@ -3,3 +3,4 @@
 
 ## Projects
 1. Profile Card (CSS, HTML)
+2. About Me Page (CSS, HTML)
