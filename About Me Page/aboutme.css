@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background: #003882;
+    background: linear-gradient(143deg, rgba(0, 56, 130, 1) 16%, rgba(255, 255, 255, 0.98) 97%);
+    height: 100%;
+}
+a{
+    color:black;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+.title{
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.abt-title{
+    padding:20px;
+}
+.info-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+
+    min-width: 800px;
+    width: 95%;
+    height: 250px;
+
+    border-radius: 20px;
+    box-shadow: 0 5px 10px;
+}
+.hero-info{
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+}
+.username{
+    color: rgb(22, 34, 99);
+}
+.pfp-image{
+    border-radius: 100%;
+    border-color:rgb(22, 34, 99);
+    border-style: solid;
+    margin:20px;
+}
+.about-me{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    min-width: 800px;
+    width: 95%;
+    height: 130px;
+
+    border-radius: 20px;
+    box-shadow: 0 5px 10px;
+}
+.about-info{
+    padding:20px;
+    width: 65%;
+}
+.profilebox{
+    width: 20%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: -5px 0 5px rgba(0, 56, 130, 1);
+    border-radius: 20px;
+    text-align: center;
+}
+.pfptitle{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.github-profile{
+    border-color: #a5ccff;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #a5ccff;
+    height: 40px;
+    padding: 10px;
+}
+.projects{
+    min-width: 800px;
+    width: 95%;
+    height: 550px;
+}
+.repotitle{
+    padding: 20px;
+    background-color: white;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px;
+}
+.repobox{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-top: 0;
+}
+.repos{
+    width: 45%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px;
+}
+.repostext{
+    padding: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
